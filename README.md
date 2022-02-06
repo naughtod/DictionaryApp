@@ -8,7 +8,7 @@ This app allows multiple clients to be able to read/write to a dictionary manage
 
 
 ## Run to start the server 
-    java -jar DictionaryServer.jar <port> tinydata.csv
+    java -jar DictionaryServer.jar <port> data/tinydata.csv
 ## Run to start a client
     java -jar DictionaryClient.jar <server-address> <server-port>
 Can test locally by using unused port between 1024 and 65353 and setting server-address to localhost  
