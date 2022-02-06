@@ -6,6 +6,7 @@ This app allows multiple clients to be able to read/write to a dictionary manage
 3. Delete an existing word and its meaning(s)
 4. Update the meaning(s) for an existing word
 
+See report1.pdf in the repo for the full list of features and explanation of how the app works.
 
 ## Run to start the server 
     java -jar DictionaryServer.jar <port> data/tinydata.csv
